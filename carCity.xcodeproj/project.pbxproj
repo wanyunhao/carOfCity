@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CB90941F6D1CDF00CEF8AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CB90931F6D1CDF00CEF8AA /* AppDelegate.m */; };
+		09CB909C1F6D1CDF00CEF8AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CB909B1F6D1CDF00CEF8AA /* Assets.xcassets */; };
+		09CB909F1F6D1CDF00CEF8AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CB909D1F6D1CDF00CEF8AA /* LaunchScreen.storyboard */; };
+		09CB90A21F6D1CDF00CEF8AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CB90A11F6D1CDF00CEF8AA /* main.m */; };
+		F8473602C967506BA709F134 /* libPods-carCity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EED23920B1211DEAD1CE555 /* libPods-carCity.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09CB908F1F6D1CDF00CEF8AA /* carCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CB90921F6D1CDF00CEF8AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09CB90931F6D1CDF00CEF8AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09CB909B1F6D1CDF00CEF8AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09CB909E1F6D1CDF00CEF8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09CB90A01F6D1CDF00CEF8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CB90A11F6D1CDF00CEF8AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09CB90AA1F6D1F0800CEF8AA /* YHBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHBaseModel.h; sourceTree = "<group>"; };
+		09CB90AB1F6D1F0800CEF8AA /* YHBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHBaseModel.m; sourceTree = "<group>"; };
+		09CB90AD1F6D1F0800CEF8AA /* YHBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHBaseCell.h; sourceTree = "<group>"; };
+		09CB90AE1F6D1F0800CEF8AA /* YHBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHBaseCell.m; sourceTree = "<group>"; };
+		09CB90AF1F6D1F0800CEF8AA /* YHTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHTableView.h; sourceTree = "<group>"; };
+		09CB90B01F6D1F0800CEF8AA /* YHTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTableView.m; sourceTree = "<group>"; };
+		09CB90B21F6D1F0800CEF8AA /* YHTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHTool.h; sourceTree = "<group>"; };
+		09CB90B31F6D1F0800CEF8AA /* YHTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTool.m; sourceTree = "<group>"; };
+		09CB90B51F6D1F0800CEF8AA /* UIImage+YHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YHExtension.h"; sourceTree = "<group>"; };
+		09CB90B61F6D1F0800CEF8AA /* UIImage+YHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YHExtension.m"; sourceTree = "<group>"; };
+		09CB90B81F6D1F0800CEF8AA /* UIImageView+YHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YHExtension.h"; sourceTree = "<group>"; };
+		09CB90B91F6D1F0800CEF8AA /* UIImageView+YHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YHExtension.m"; sourceTree = "<group>"; };
+		09CB90BA1F6D1F0800CEF8AA /* YHKit.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHKit.pch; sourceTree = "<group>"; };
+		09CB90BC1F6D1F0800CEF8AA /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		09CB90BD1F6D1F0800CEF8AA /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		09CB90BF1F6D1F0800CEF8AA /* YHHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHHttpTool.h; sourceTree = "<group>"; };
+		09CB90C01F6D1F0800CEF8AA /* YHHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHHttpTool.m; sourceTree = "<group>"; };
+		09CB90C21F6D1F0800CEF8AA /* YHRefreshGifFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRefreshGifFooter.h; sourceTree = "<group>"; };
+		09CB90C31F6D1F0800CEF8AA /* YHRefreshGifFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRefreshGifFooter.m; sourceTree = "<group>"; };
+		09CB90C41F6D1F0800CEF8AA /* YHRefreshGifHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRefreshGifHeader.h; sourceTree = "<group>"; };
+		09CB90C51F6D1F0800CEF8AA /* YHRefreshGifHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRefreshGifHeader.m; sourceTree = "<group>"; };
+		09CB90C71F6D1F0800CEF8AA /* YHResetFrameButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHResetFrameButton.h; sourceTree = "<group>"; };
+		09CB90C81F6D1F0800CEF8AA /* YHResetFrameButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHResetFrameButton.m; sourceTree = "<group>"; };
+		09CB90CA1F6D1F0800CEF8AA /* YHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHBaseViewController.h; sourceTree = "<group>"; };
+		09CB90CB1F6D1F0800CEF8AA /* YHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHBaseViewController.m; sourceTree = "<group>"; };
+		09CB90CC1F6D1F0800CEF8AA /* YHRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRootViewController.h; sourceTree = "<group>"; };
+		09CB90CD1F6D1F0800CEF8AA /* YHRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRootViewController.m; sourceTree = "<group>"; };
+		3EED23920B1211DEAD1CE555 /* libPods-carCity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-carCity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0565F6EE2763C892A81806 /* Pods-carCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-carCity/Pods-carCity.debug.xcconfig"; sourceTree = "<group>"; };
+		A89086550BEB655457165798 /* Pods-carCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-carCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-carCity/Pods-carCity.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09CB908C1F6D1CDF00CEF8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8473602C967506BA709F134 /* libPods-carCity.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09CB90861F6D1CDF00CEF8AA = {
+			isa = PBXGroup;
+			children = (
+				09CB90911F6D1CDF00CEF8AA /* carCity */,
+				09CB90901F6D1CDF00CEF8AA /* Products */,
+				AD86A70496B5CFC1C49945A0 /* Pods */,
+				51CCF04B3E0CBA01CD29CF42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09CB90901F6D1CDF00CEF8AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09CB908F1F6D1CDF00CEF8AA /* carCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09CB90911F6D1CDF00CEF8AA /* carCity */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90A81F6D1F0800CEF8AA /* YHTool */,
+				09CB90921F6D1CDF00CEF8AA /* AppDelegate.h */,
+				09CB90931F6D1CDF00CEF8AA /* AppDelegate.m */,
+				09CB909B1F6D1CDF00CEF8AA /* Assets.xcassets */,
+				09CB909D1F6D1CDF00CEF8AA /* LaunchScreen.storyboard */,
+				09CB90A01F6D1CDF00CEF8AA /* Info.plist */,
+				09CB90A11F6D1CDF00CEF8AA /* main.m */,
+			);
+			path = carCity;
+			sourceTree = "<group>";
+		};
+		09CB90A81F6D1F0800CEF8AA /* YHTool */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90A91F6D1F0800CEF8AA /* YHBaseModel */,
+				09CB90AC1F6D1F0800CEF8AA /* YHBaseTableView */,
+				09CB90B11F6D1F0800CEF8AA /* YHComponment */,
+				09CB90B41F6D1F0800CEF8AA /* YHImage */,
+				09CB90B71F6D1F0800CEF8AA /* YHImageView */,
+				09CB90BA1F6D1F0800CEF8AA /* YHKit.pch */,
+				09CB90BB1F6D1F0800CEF8AA /* YHNavigation */,
+				09CB90BE1F6D1F0800CEF8AA /* YHNetWorkTool */,
+				09CB90C11F6D1F0800CEF8AA /* YHRefresh */,
+				09CB90C61F6D1F0800CEF8AA /* YHResetButton */,
+				09CB90C91F6D1F0800CEF8AA /* YHViewController */,
+			);
+			path = YHTool;
+			sourceTree = "<group>";
+		};
+		09CB90A91F6D1F0800CEF8AA /* YHBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90AA1F6D1F0800CEF8AA /* YHBaseModel.h */,
+				09CB90AB1F6D1F0800CEF8AA /* YHBaseModel.m */,
+			);
+			path = YHBaseModel;
+			sourceTree = "<group>";
+		};
+		09CB90AC1F6D1F0800CEF8AA /* YHBaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90AD1F6D1F0800CEF8AA /* YHBaseCell.h */,
+				09CB90AE1F6D1F0800CEF8AA /* YHBaseCell.m */,
+				09CB90AF1F6D1F0800CEF8AA /* YHTableView.h */,
+				09CB90B01F6D1F0800CEF8AA /* YHTableView.m */,
+			);
+			path = YHBaseTableView;
+			sourceTree = "<group>";
+		};
+		09CB90B11F6D1F0800CEF8AA /* YHComponment */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90B21F6D1F0800CEF8AA /* YHTool.h */,
+				09CB90B31F6D1F0800CEF8AA /* YHTool.m */,
+			);
+			path = YHComponment;
+			sourceTree = "<group>";
+		};
+		09CB90B41F6D1F0800CEF8AA /* YHImage */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90B51F6D1F0800CEF8AA /* UIImage+YHExtension.h */,
+				09CB90B61F6D1F0800CEF8AA /* UIImage+YHExtension.m */,
+			);
+			path = YHImage;
+			sourceTree = "<group>";
+		};
+		09CB90B71F6D1F0800CEF8AA /* YHImageView */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90B81F6D1F0800CEF8AA /* UIImageView+YHExtension.h */,
+				09CB90B91F6D1F0800CEF8AA /* UIImageView+YHExtension.m */,
+			);
+			path = YHImageView;
+			sourceTree = "<group>";
+		};
+		09CB90BB1F6D1F0800CEF8AA /* YHNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90BC1F6D1F0800CEF8AA /* UINavigationController+FDFullscreenPopGesture.h */,
+				09CB90BD1F6D1F0800CEF8AA /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = YHNavigation;
+			sourceTree = "<group>";
+		};
+		09CB90BE1F6D1F0800CEF8AA /* YHNetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90BF1F6D1F0800CEF8AA /* YHHttpTool.h */,
+				09CB90C01F6D1F0800CEF8AA /* YHHttpTool.m */,
+			);
+			path = YHNetWorkTool;
+			sourceTree = "<group>";
+		};
+		09CB90C11F6D1F0800CEF8AA /* YHRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90C21F6D1F0800CEF8AA /* YHRefreshGifFooter.h */,
+				09CB90C31F6D1F0800CEF8AA /* YHRefreshGifFooter.m */,
+				09CB90C41F6D1F0800CEF8AA /* YHRefreshGifHeader.h */,
+				09CB90C51F6D1F0800CEF8AA /* YHRefreshGifHeader.m */,
+			);
+			path = YHRefresh;
+			sourceTree = "<group>";
+		};
+		09CB90C61F6D1F0800CEF8AA /* YHResetButton */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90C71F6D1F0800CEF8AA /* YHResetFrameButton.h */,
+				09CB90C81F6D1F0800CEF8AA /* YHResetFrameButton.m */,
+			);
+			path = YHResetButton;
+			sourceTree = "<group>";
+		};
+		09CB90C91F6D1F0800CEF8AA /* YHViewController */ = {
+			isa = PBXGroup;
+			children = (
+				09CB90CA1F6D1F0800CEF8AA /* YHBaseViewController.h */,
+				09CB90CB1F6D1F0800CEF8AA /* YHBaseViewController.m */,
+				09CB90CC1F6D1F0800CEF8AA /* YHRootViewController.h */,
+				09CB90CD1F6D1F0800CEF8AA /* YHRootViewController.m */,
+			);
+			path = YHViewController;
+			sourceTree = "<group>";
+		};
+		51CCF04B3E0CBA01CD29CF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EED23920B1211DEAD1CE555 /* libPods-carCity.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD86A70496B5CFC1C49945A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E0565F6EE2763C892A81806 /* Pods-carCity.debug.xcconfig */,
+				A89086550BEB655457165798 /* Pods-carCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09CB908E1F6D1CDF00CEF8AA /* carCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CB90A51F6D1CDF00CEF8AA /* Build configuration list for PBXNativeTarget "carCity" */;
+			buildPhases = (
+				B792129EF2FFC34A0973741E /* [CP] Check Pods Manifest.lock */,
+				09CB908B1F6D1CDF00CEF8AA /* Sources */,
+				09CB908C1F6D1CDF00CEF8AA /* Frameworks */,
+				09CB908D1F6D1CDF00CEF8AA /* Resources */,
+				BF815A146DE32BC273D992C2 /* [CP] Embed Pods Frameworks */,
+				B9E360CA8FC6D698689A4246 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = carCity;
+			productName = carCity;
+			productReference = 09CB908F1F6D1CDF00CEF8AA /* carCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09CB90871F6D1CDF00CEF8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = wyh;
+				TargetAttributes = {
+					09CB908E1F6D1CDF00CEF8AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 09CB908A1F6D1CDF00CEF8AA /* Build configuration list for PBXProject "carCity" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09CB90861F6D1CDF00CEF8AA;
+			productRefGroup = 09CB90901F6D1CDF00CEF8AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09CB908E1F6D1CDF00CEF8AA /* carCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09CB908D1F6D1CDF00CEF8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CB909F1F6D1CDF00CEF8AA /* LaunchScreen.storyboard in Resources */,
+				09CB909C1F6D1CDF00CEF8AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B792129EF2FFC34A0973741E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-carCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E360CA8FC6D698689A4246 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-carCity/Pods-carCity-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carCity/Pods-carCity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF815A146DE32BC273D992C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-carCity/Pods-carCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CB908B1F6D1CDF00CEF8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CB90A21F6D1CDF00CEF8AA /* main.m in Sources */,
+				09CB90941F6D1CDF00CEF8AA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09CB909D1F6D1CDF00CEF8AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09CB909E1F6D1CDF00CEF8AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09CB90A31F6D1CDF00CEF8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09CB90A41F6D1CDF00CEF8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09CB90A61F6D1CDF00CEF8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0565F6EE2763C892A81806 /* Pods-carCity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYELPL6UE4;
+				GCC_PREFIX_HEADER = "${SRCROOT}/carCity/YHTool/YHKit.pch";
+				INFOPLIST_FILE = carCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = why.carCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09CB90A71F6D1CDF00CEF8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89086550BEB655457165798 /* Pods-carCity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EYELPL6UE4;
+				GCC_PREFIX_HEADER = "${SRCROOT}/carCity/YHTool/YHKit.pch";
+				INFOPLIST_FILE = carCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = why.carCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CB908A1F6D1CDF00CEF8AA /* Build configuration list for PBXProject "carCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CB90A31F6D1CDF00CEF8AA /* Debug */,
+				09CB90A41F6D1CDF00CEF8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09CB90A51F6D1CDF00CEF8AA /* Build configuration list for PBXNativeTarget "carCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09CB90A61F6D1CDF00CEF8AA /* Debug */,
+				09CB90A71F6D1CDF00CEF8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09CB90871F6D1CDF00CEF8AA /* Project object */;
+}
